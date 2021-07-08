@@ -1,0 +1,539 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+
+body {
+	line-height: 1
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+nav ul {
+	list-style: none
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold
+}
+
+del {
+	text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+
+input,
+select {
+	vertical-align: middle
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F6F6F6;
+}
+
+body,
+h1,
+p {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.sections div {
+	background-color: #ffffff;
+	color: #000000;
+	text-align: left;
+	font-weight: bold;
+	font-size: 45px;
+	margin: 2%
+}
+
+#gallery {
+	text-align: center;
+}
+
+#gallery div {
+	background-color: #bbc;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
+
+#gallery p {
+	background-color: #bbc;
+	color: #FFF;
+	text-align: left;
+	font-weight: bold;
+	padding: 2%;
+	font-size: 15px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	max-width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.row:before,
+.row:after {
+	display: table;
+	content: " ";
+}
+
+.col-md-6 {
+	width: 50%;
+}
+
+.col-md-push-3 {
+	margin-left: 25%;
+}
+
+#top-section {
+	background-color: #dad7ab;
+	padding: 5%;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: 350;
+	text-align: center;
+}
+
+.lead {
+	font-size: 21px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.imageCaption {
+	float: right;
+	margin: 0 0 10px 25px;
+	text-align: center;
+}
+
+hr {
+	border-top: 1px solid #bbb;
+	margin: 25px 0;
+}
+
+.checklist-container {
+	margin: 4% auto 4% auto;
+	text-align: center;
+}
+
+.checklist {
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	color: brown;
+	font-weight: bold;
+}
+
+.checklist-container a {
+	padding: 15px;
+}
+
+.checklist:hover {
+	background-color: #bbb;
+}
+
+.navigation {
+	margin: auto;
+	text-align: center;
+	background-color: #556;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 5% 5% 5% 5%;
+}
+
+.navigation li a {
+	color: white;
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding: 10px;
+	letter-spacing: 1px;
+}
+
+.navigation li a:hover {
+	background-color: black;
+}
+
+#myBtn {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 20px;
+	/* Place the button at the bottom of the page */
+	right: 0px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-color: red;
+	/* Set a background color */
+	color: white;
+	/* Text color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	padding: 15px;
+	/* Some padding */
+	border-radius: 10px;
+	/* Rounded corners */
+	font-size: 18px;
+	/* Increase font size */
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+	/* Add a dark-grey background on hover */
+}
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+	width: 100%;
+	position: relative;
+	height: auto;
+	background-color: #070617;
+}
+
+.footer .col {
+	margin: 2% auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px 40px 40px 40px;
+	text-align: center
+}
+
+.space-bf-footer {
+	background-color: #dbdbdb
+}
+
+.footer .col h1 {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 17px;
+	padding: 20px 0px 5px 0px;
+	color: rgba(255, 255, 255, 0.63);
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.250em;
+}
+
+.footer .col ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer .col ul li {
+	color: #999999;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+	cursor: pointer;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+}
+
+.social ul li {
+	display: inline-block;
+	padding-right: 5px !important;
+}
+
+.footer .col ul li a {
+	color: #999999;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+}
+
+.social ul li a {
+	display: inline-block;
+}
+
+.footer .col ul li a:hover {
+	color: #ffffff;
+	transition: .1s;
+	-webkit-transition: .1s;
+	-moz-transition: .1s;
+}
+
+.clearfix {
+	clear: both;
+
+}
+
+#r-col {
+	float: right;
+	padding-bottom: 10%;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 450px) {
+	* {
+		margin: auto 5%;
+		text-align: center;
+
+	}
+
+	h1.header {
+		font-size: 3rem;
+		font-weight: 400;
+		background-color: #dad7ab;
+		line-height: 50px;
+		letter-spacing: 2px;
+
+	}
+
+	.checklist-container {
+		margin: 8%;
+	}
+
+	a.checklist {
+		background-color: rgba(165, 42, 42, 0.288);
+	}
+
+	ul.navigation {
+		margin: 10% 0%;
+	}
+
+	.navigation li {
+		margin: auto;
+		display: inline-block;
+		padding: 8% 2%;
+		justify-content: space-between;
+	}
+
+	.navigation li a.page-scroll {
+		background-color: #35353b;
+		border-radius: 10px;
+	}
+
+	.footer .col {
+		width: 50%;
+	}
+
+	.footer .col h1 {
+		font-size: 14px;
+	}
+
+	.footer .col ul li {
+		font-size: 13px;
+	}
+
+	.footer .col ul li a {
+		font-size: 13px;
+	}
+
+	#r-col {
+		float: right;
+		/* padding-bottom: 20%; */
+	}
+
+	.copyright {
+		color: #fff;
+		font-size: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 340px) {
+	.footer .col {
+		width: 100%;
+	}
+}
